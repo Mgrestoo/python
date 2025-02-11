@@ -41,6 +41,7 @@ name = input("What is your name? ")
 evil_status = input("Hey " + name + " Are you evil? ")
 if name == "Restoo" and evil_status == "no":
     print("Hello " + name, "You are much welcome here to eMobilis.")
+    exit()
 
     if evil_status == "yes":
           print("Get out now!")
